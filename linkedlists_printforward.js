@@ -10,3 +10,19 @@ function printForward(node) {
 }
 
 
+
+//definition below
+class ListNode {
+    constructor(val) {
+      this.val = val;
+      this.next = null;
+    }
+  }
+  
+  let head = new ListNode(1);
+  head.next = new ListNode(5);
+  head.next.next = new ListNode(7);
+  head.next.next.next = new ListNode(10);
+  head.next.next.next.next = new ListNode(7);
+  head.next.next.next.next.next = new ListNode(5);
+  head.next.next.next.next.next.next = new ListNode(1);
