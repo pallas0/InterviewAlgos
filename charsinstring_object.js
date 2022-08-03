@@ -20,4 +20,4 @@ function count(string) {
     return stringObject;
 }
 
-console.log(count('aabbbcccaa'))
+console.log(count('abc'))
